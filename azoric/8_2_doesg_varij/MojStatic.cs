@@ -14,7 +14,7 @@ namespace _8_2_doesg_varij
             return Math.Pow(broj1, 3);
         }
 
-        public static int CelzijFahrenheit(int broj1)
+        internal static int CelzijFahrenheit(int broj1)
         {
             return broj1 * (9/5) + 32;
         }
