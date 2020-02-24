@@ -8,11 +8,13 @@ namespace _8_1_3_Osoba
         private string ime;
         private DateTime datrod;
 
-        public string Ime {
+        public string Ime
+        {
             get => ime;
             set => ime = Slova.PrvoVeliko(value);
-    }
-        public string Prezime {
+        }
+        public string Prezime
+        {
             get => prezime;
             set => prezime = Slova.PrvoVeliko(value);
         }
@@ -20,12 +22,25 @@ namespace _8_1_3_Osoba
         {
             get => datrod.ToString();
             set => datrod = DateTime.Parse(value);
+<<<<<<< HEAD
 
         }
         public object BrojGodina {
             get =>  DateTime.Now - this.datrod;
              
                  }
+=======
+        }
+        public double BrojGodina
+        {
+            get
+            {
+                TimeSpan TS = DateTime.Now - this.datrod;
+                return TS.TotalDays / 365.25;
+            }
+            // private set;  // trebamo readonly
+        }
+>>>>>>> c606924283b27a469339b2353a50582715f63607
 
         public override string ToString()
         {
@@ -34,7 +49,11 @@ namespace _8_1_3_Osoba
 
         internal void IspisBrojGodina()
         {
+<<<<<<< HEAD
             Console.WriteLine($"Osoba {this.Ime} {this.Prezime} ima {this.BrojGodina}");
+=======
+            Console.WriteLine($"Osoba {this.Ime} {this.Prezime} ima {this.BrojGodina:f1}");
+>>>>>>> c606924283b27a469339b2353a50582715f63607
         }
     }
 }

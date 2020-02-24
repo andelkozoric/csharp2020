@@ -19,7 +19,11 @@ namespace _8_1_3_Osoba
 
             Console.WriteLine("Molim unesite datum rođenja:");
 
+<<<<<<< HEAD
             o1.Datrod= Console.ReadLine();
+=======
+            o1.Datrod = Console.ReadLine();
+>>>>>>> c606924283b27a469339b2353a50582715f63607
             o1.IspisBrojGodina();
 
 
