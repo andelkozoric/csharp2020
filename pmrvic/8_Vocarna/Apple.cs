@@ -4,8 +4,18 @@ namespace _8_Vocarna
 {
     internal class Apple:Voce
     {
-        public double Tezina;
+        
 
+        public double Tezina;
+        public new string Boja
+        {
+            
+            set
+            {
+                Boja = value;
+            }
+            
+        }
         public Apple(double Tezina)
         {
             this.Tezina = Tezina;
@@ -16,6 +26,7 @@ namespace _8_Vocarna
                 case 2: this.Boja = "Žuta"; break;
                 case 3: this.Boja = "Crvena"; break;
             }
+            
 
         }
     }

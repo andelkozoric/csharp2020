@@ -24,7 +24,7 @@ namespace _8_3_1_vozilo
             Automobili k1 = new Automobili();
 
             Automobil a2 = new Automobil(Naziv: "Opel",Boja: "Crno",KS: 55);
-            Automobil a3 = new Automobil("Golf", "Crveni", 45);
+            Automobil a3 = new Automobil(Naziv: "Golf", Boja : "Crveni", 45);
             Automobil a4 = new Automobil("Skoda", "Bijeli", 66);
             k1.Add(a1);
             k1.Add(a2);

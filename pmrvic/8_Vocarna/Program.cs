@@ -18,6 +18,12 @@ namespace _8_Vocarna
 
             Apple a1 = new Apple(Tezina:200);
 
+            a1.promjenaBoje += A1_promjenaBoje;
+            
+
+            
+
+
             Banana[] bananas = new Banana[3];
             Banana[] truleBanane = new Banana[2];
 
@@ -79,6 +85,11 @@ Console.WriteLine(truleBanane[i]);
                 Console.WriteLine($"Jabuka, težina {item.Tezina}g, boja: {item.Boja}");
             }
 
+        }
+        // ova se funkcija izvrsi kada okine  event promjena bolje kod jabuke
+        private static void A1_promjenaBoje(object sender, EventArgs e)
+        {
+            Console.WriteLine("boja jabuke je promjenjena!");
         }
     }
 }
