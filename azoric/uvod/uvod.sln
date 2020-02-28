@@ -97,6 +97,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.string_klasa_rad_s_teksto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_1_1_znak_u_rijeci", "..\9_1_1_znak_u_rijeci\9_1_1_znak_u_rijeci.csproj", "{E9A6715E-39B9-4B23-A708-036CF720F0D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_1_2_rijec_u_recenici", "..\9_1_2_rijec_u_recenici\9_1_2_rijec_u_recenici.csproj", "{38418846-D073-4729-A682-7BBB52D10438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_1_6_palindrom", "..\9_1_6_palindrom\9_1_6_palindrom.csproj", "{AB8FB0AC-A3D6-4E0C-9AEA-86C94E3F716A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -263,6 +267,14 @@ Global
 		{E9A6715E-39B9-4B23-A708-036CF720F0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9A6715E-39B9-4B23-A708-036CF720F0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9A6715E-39B9-4B23-A708-036CF720F0D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38418846-D073-4729-A682-7BBB52D10438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38418846-D073-4729-A682-7BBB52D10438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38418846-D073-4729-A682-7BBB52D10438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38418846-D073-4729-A682-7BBB52D10438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8FB0AC-A3D6-4E0C-9AEA-86C94E3F716A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8FB0AC-A3D6-4E0C-9AEA-86C94E3F716A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8FB0AC-A3D6-4E0C-9AEA-86C94E3F716A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8FB0AC-A3D6-4E0C-9AEA-86C94E3F716A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -307,6 +319,8 @@ Global
 		{C7B322F1-72CE-4A8D-AF93-2E87C0182FE9} = {87B185C6-FE8A-4318-AC40-22DEB97D1435}
 		{0B13D80A-574B-4236-9BD2-1FEC680DD690} = {87B185C6-FE8A-4318-AC40-22DEB97D1435}
 		{E9A6715E-39B9-4B23-A708-036CF720F0D9} = {BE45477E-7861-4D77-BD62-4E6A08F581A5}
+		{38418846-D073-4729-A682-7BBB52D10438} = {BE45477E-7861-4D77-BD62-4E6A08F581A5}
+		{AB8FB0AC-A3D6-4E0C-9AEA-86C94E3F716A} = {BE45477E-7861-4D77-BD62-4E6A08F581A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E1F2577-190A-4E35-AC80-477CD36C31AC}
