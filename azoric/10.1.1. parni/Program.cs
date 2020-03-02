@@ -23,8 +23,7 @@ namespace _10._1._1._parni
             sw.Close();
             fs.Close();
 
-            fs = new FileStream("PARNI.txt", FileMode.Open);
-            StreamReader sr = new StreamReader(fs);
+            
         }
     }
 }
