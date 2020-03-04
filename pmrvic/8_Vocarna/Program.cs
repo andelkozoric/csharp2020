@@ -18,7 +18,7 @@ namespace _8_Vocarna
 
             Apple a1 = new Apple(Tezina:200);
 
-            a1.promjenaBoje += A1_promjenaBoje;
+            
             
 
             
