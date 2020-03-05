@@ -8,7 +8,7 @@ namespace zadatak2
     {
         static void Main(string[] args)
         {
-            //napišite broj koji tratzi unos rijeci sve dok se ne unese rijec kraj
+            //napišite broj koji trazi unos rijeci sve dok se ne unese rijec "kraj"
             Console.WriteLine("Hello World!");
             List<string> A = new List<string>();
 
