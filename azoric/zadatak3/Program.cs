@@ -22,7 +22,7 @@ namespace zadatak3
             Console.WriteLine("Unesite osnovnu cijenu");
             a1.OsnovnaCijena = double.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Automobil je {a1.Naziv}, godina proizvodnje je {a1.GodinaProizvodnje}, cijena je {a1.OsnovnaCijena}");
+            Console.WriteLine("Ime automobila je {1}, proizveden je {2}, osnovna cijena mu je {3}, star je {4}", a1.Naziv, a1.GodinaProizvodnje, a1.OsnovnaCijena);
 
 
             //Metode
