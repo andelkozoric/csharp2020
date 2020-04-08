@@ -5,9 +5,12 @@
     //List<Voce>
     ViewData["Title"] = "Index";
     double sveukupno = 0;
-    foreach (var item in Model)
+    if(Model!=null)
     {
-        sveukupno += item.Ukupno;
+        foreach (var item in Model)
+        {
+            sveukupno += item.Ukupno;
+        }
     }
 }
 
@@ -23,6 +26,8 @@ Ovo je defaultni view , tu cemo prikazati sadrzaj kosarice
 <a asp-controller="Voce" asp-action="UnosVoca"> Dodaj novo voce u kosaricu</a>
 
 <ol>
+    @if (Model != null)
+    { 
     @foreach (var item in Model)
     {
     <li>
@@ -30,6 +35,11 @@ Ovo je defaultni view , tu cemo prikazati sadrzaj kosarice
     
         @item.Kategorija @item.Cijena @item.Kolicina @item.Ukupno
     </li>
+    }
+    }
+    else
+    {
+        <li>Kosarica je prazna!</li>
     }
 </ol>
 
