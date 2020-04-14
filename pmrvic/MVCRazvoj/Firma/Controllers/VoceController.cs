@@ -15,6 +15,7 @@ namespace Firma.Controllers
             return View("Index", HttpContext.Session.Get<List<Voce>>("kosarica"));
            
         }
+<<<<<<< HEAD
         public IActionResult Detalji()
         {
             return View();
@@ -22,6 +23,25 @@ namespace Firma.Controllers
         /**
          * Prikazuje kosaricu sa vocem, listu i ukupnu cijenu
          * **/
+=======
+        public IActionResult Detalji(string id, string? oznaka)
+        {
+            // pripremimo listu
+            List<Voce> kosarica = new List<Voce>();
+
+            // ukoliko vec postoji iz sessiona, popunimo ju s tim vrijedniostima
+            if (HttpContext.Session.Get<List<Voce>>("kosarica") != null)
+            {
+                kosarica = HttpContext.Session.Get<List<Voce>>("kosarica");
+            }
+            Voce v1=kosarica.Find(x => x.Ime.Contains(id));
+
+            return View(v1);
+        }
+        /**
+         * Prikazuje kosaricu sa vocem, listu i ukupnu cijenu
+         * */
+>>>>>>> 8d51d9758e1262291c198ef7a9a428cd8273f7ce
         public IActionResult Index()
         {
             return View();

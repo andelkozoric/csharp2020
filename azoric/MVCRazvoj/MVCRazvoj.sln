@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Kontrolori", "..\..\pmrvi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Firma", "..\..\pmrvic\MVCRazvoj\Firma\Firma.csproj", "{190B669C-A2AE-4F90-AB51-1C91781673A4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fakultet", "..\..\pmrvic\MVCRazvoj\Fakultet\Fakultet.csproj", "{49199A1D-DEB4-4E39-8678-A194B2C6A7CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{190B669C-A2AE-4F90-AB51-1C91781673A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{190B669C-A2AE-4F90-AB51-1C91781673A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{190B669C-A2AE-4F90-AB51-1C91781673A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49199A1D-DEB4-4E39-8678-A194B2C6A7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49199A1D-DEB4-4E39-8678-A194B2C6A7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49199A1D-DEB4-4E39-8678-A194B2C6A7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49199A1D-DEB4-4E39-8678-A194B2C6A7CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
